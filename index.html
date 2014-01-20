@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>By Chris Choi</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700|Average+Sans|Montserrat:400,700|Alef:400,700|Rosario:400,700'
+rel='stylesheet' type='text/css'>
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    a{
+    	cursor: pointer;
+    }
+    * {
+    	font-family: Verdana, Geneva, sans-serif;
+    }
+    section {
+    	padding: 70px 0;
+	}
+    body {
+	  min-height: 2000px;
+	  padding-top: 70px;
+	  background-color: #f7f7f7;
+	}
+	.row-odd{
+		margin-top:-20px;
+		background-color: #eaeaea;
+	}
+	#row2{
+		background: #3276b1 url(images/interface.png) center no-repeat;
+	}
+	.row-even {
+		color:#fff;
+	}
+	.row-even .boxes{
+		color:#eaeaea;
+	}
+	.row-odd .boxes{
+		color:#eaeaea;
+	}
+	.row-even{
+		background-color: #3276b1;
+	}
+	.navbar{
+		margin-bottom:0;
+	}
+	.navbar-default{
+		background-color: rgba(50, 50, 50, 0.95);
+		border-bottom: solid 2px #454545;
+	}
+	.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+		color:#cdcdcd;		
+	}
+	.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+		color:#fff;
+	}
+	.lg-title{
+		font-size: 72px;
+	}
+	.xlg-title{
+		font-size: 148px;
+	}
+	.light-title{
+		color: #fff;
+	}
+	.boxes{
+		background-color: rgba(50, 50, 50, .95);
+		margin-bottom:20px;
+		padding: 0 10px;
+		border: solid 1px #525252;
+		border-radius: 6px;
+		min-height: 350px;
+	}
+	#footer {
+		height: 25px;
+		background-color: rgba(50, 50, 50, 0.95);
+		border-bottom: solid 2px #454545;
+		color:#fff;
+		text-align: right;
+	}
+	#footer ul{
+		padding-right: 20px;
+		list-style: none;
+	}
+	.right{
+		float:right;
+		padding-top:10px;
+	}
+	.sideimage{
+		float:right;
+		margin-right: 30px;
+		width: 90px;
+	}
+	h1{
+		font-family: 'Average Sans', sans-serif;
+	}
+	.showless{
+		display: none;
+	}
+	.boxes img{
+		max-width: 300px;
+		float: right;
+	}
+	.boxes .text{
+		max-width:750px;
+	}
+</style>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand active" href="#">By Chris Choi</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#row1">About Me</a></li>
+            <li><a href="#row2">UX Design &amp; Dev.</a></li>
+            <li><a href="#row3">3D Models</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>-->
+              </ul>
+            </li>
+          </ul>
+          <ul class="right">
+          <li><a class="btn btn-sm btn-primary" href="../../components/#navbar" role="button">View my résumé &raquo;</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <section id="row1" class="row-odd">
+    <div class="container">
+    	<div class="col-lg-12">
+    	<div class="sideimage hidden-xs"><img class="img-responsive" alt="Responsive image" src="C:\Users\ChrisChoi\Desktop\Website\images\RealExplodedClear.png" /></div>
+	        <h1 class="xlg-title">Chris Choi</h1>
+	        <h3>2A Systems Design Engineering student at the University of Waterloo.</h3>
+	        <h3>Interested by designs which help people perform tasks efficiently.</h3>
+	        <ul>
+	        	<li>Ecological Interface Design</li>
+	        	<li>Human Computer Interaction</li>
+	        	<li>User Centred Design</li>
+	        </ul>
+	    </div>
+	    
+    </div> <!-- /container -->
+    </section>
+	<section data-type="background" id="row2" class="row-even">
+	<div class="container">
+	      <div class="col-lg-12">
+		      <h1 class="lg-title">UX Design &amp; Development</h1>
+		      <p class="lead">Below are several projects I have worked on for previous work terms.</p>
+		      <div class="boxes" id="box1">
+		      		<h3>Mobile Hospital Waiting Time App</h3>
+		      		<h4>Objective: Design an interface to improve a patient's visit to the hospital.</h4>
+
+					<p>Constraints: Variety of users:</p>
+					<ul>
+						<li>Low ability, high motivation</li>
+						<li>Low ability, low motivation</li>
+						<li>High ability, low motivation</li>
+						<li>High ability, high motivation</li>
+					</ul>
+					<p>Requirements:</p>
+					<ul>
+						<li>Motivate users to use app consistently</li>
+						<li>Simple Interface for ease of use</li>
+						<li>Allow </li>
+						<li>High ability, high motivation</li>
+					</ul>
+					<a class="showmore">Show more >></a>
+		      		<p>The app needed to be simple to use, aid the user at a critical time of need, and also minimize the number of “hospital hoppers” (people who go to hospitals without sufficient reason). It also needed to address some of the problems hospital staff observed of visitors such as parking and location of facilities.</p>
+
+					<p>A really important factor into the design was to not discourage people from coming to the hospital, but at the same time, offer the user a shorter wait time. This meant that our design had to incorporate some techniques which may seem more troublesome to the more technologically inclined user, but was vital in order to encourage users to choose the right hospital.</p>
+					<a class="showless">Show less >></a>
+		      </div>
+		      <div class="boxes" id="box2">
+		      		<h3>Tablet App for Monitoring Health</h2>
+					<h4>Objective: Design an interface for a health monitoring system on a tablet.</h4>
+
+					<p>Constraints: Variety of users:</p>
+					<ul>
+						<li>Low ability, high motivation</li>
+						<li>Low ability, low motivation</li>
+						<li>High ability, low motivation</li>
+						<li>High ability, high motivation</li>
+					</ul>
+					<p>Requirements:</p>
+					<ul>
+						<li>Motivate users to use app consistently</li>
+						<li>Simple Interface for ease of use</li>
+						<li>Allow </li>
+						<li>High ability, high motivation</li>
+					</ul>
+					<a class="showmore">Show more >></a>
+		      		<p>The app needed to be simple to use, aid the user at a critical time of need, and also minimize the number of “hospital hoppers” (people who go to hospitals without sufficient reason). It also needed to address some of the problems hospital staff observed of visitors such as parking and location of facilities.</p>
+
+					<p>A really important factor into the design was to not discourage people from coming to the hospital, but at the same time, offer the user a shorter wait time. This meant that our design had to incorporate some techniques which may seem more troublesome to the more technologically inclined user, but was vital in order to encourage users to choose the right hospital.</p>
+					<a class="showless">Show less >></a>
+		      </div>
+		      <div class="boxes">
+		      		<h3>iOS Home Automation Interface</h3>
+		      </div>
+	      </div>
+	      </div>
+      </section>
+    <section id="row3" class="row-odd">
+    <div class="container">
+    	<div class="col-lg-12">
+	        <h1 class="lg-title">3D Models</h1>
+	        <p class="lead">Below are several projects I have worked on for school projects and competitions.</p>
+	        <div class="boxes clearfix">
+		        <h1>A New Alarm System</h1>
+		        <img class="img-responsive" alt="Responsive image" src="C:\Users\ChrisChoi\Desktop\Website\images\Bottom.png" />
+		        <p class="text">A really important factor into the design was to not discourage people from coming to the hospital, but at the same time, offer the user a shorter wait time. This meant that our design had to incorporate some techniques which may seem more troublesome to the more technologically inclined user, but was vital in order to encourage users to choose the right hospital.</p>
+	        </div>
+	        <div class="boxes clearfix">
+		        <h1>A New Drinking Fountain</h1>
+		        <img class="img-responsive" alt="Responsive image" src="C:\Users\ChrisChoi\Desktop\Website\images\WholeFountain.png" />
+		        <p class="text">A really important factor into the design was to not discourage people from coming to the hospital, but at the same time, offer the user a shorter wait time. This meant that our design had to incorporate some techniques which may seem more troublesome to the more technologically inclined user, but was vital in order to encourage users to choose the right hospital.</p>
+	        </div>
+	        <div class="boxes clearfix">
+		        <h1>A New Alarm System</h1>
+		        <img class="img-responsive" alt="Responsive image" src="C:\Users\ChrisChoi\Desktop\Website\images\Bottom.png" />
+		        <p class="text">A really important factor into the design was to not discourage people from coming to the hospital, but at the same time, offer the user a shorter wait time. This meant that our design had to incorporate some techniques which may seem more troublesome to the more technologically inclined user, but was vital in order to encourage users to choose the right hospital.</p>
+	        </div>
+	    </div>
+    </div> <!-- /container -->
+    </section>
+    <section id="row4" class="row-even">
+	<div class="container">
+	      <div class="col-lg-12">
+		      <h1 class="lg-title">Other Interests</h1>
+		      <p class="lead">Other miscellaneous interests that I have.</p>
+		       <div class="boxes">
+		        <h1>Engineering &amp; Design Competitions</h1>
+		        <img class="img-responsive" alt="Responsive image" src="C:\Users\ChrisChoi\Desktop\Website\images\Bottom.png" />
+	        </div>
+	        <div class="boxes">
+		        <h1>Print Design</h1>
+		        <img class="img-responsive" alt="Responsive image" src="C:\Users\ChrisChoi\Desktop\Website\images\WholeFountain.png" />
+	        </div>
+	        <div class="boxes">
+		        <h1>Video Editing</h1>
+		        <img class="img-responsive" alt="Responsive image" src="C:\Users\ChrisChoi\Desktop\Website\images\Bottom.png" />
+	        </div>
+	      </div>
+	</div>
+    </section>
+    <div id="footer">
+    	<ul>
+    		<li>Copyright</li>
+    	</ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+	    $('#box1').css({height:'350px', overflow:'hidden'});
+	    $('#box2').css({height:'350px', overflow:'hidden'});
+		$('a.showmore').click(function() {
+		    $this = $(this);
+		    var box = $(this).parent();
+		    var totalHeight = 0;
+		    box.children().each(function(){
+    			totalHeight += $(this).outerHeight(true);
+			});
+	        box.animate({height:totalHeight});
+	        box.data('open', 1);
+	        $this.css('display', 'none');
+	        $(box).find('.showless').css('display', 'block');
+		});
+		$('a.showless').click(function() {
+		    $this = $(this);
+		    var box = $(this).parent();
+		    box.animate({height:"350px"});
+		    box.data('open', 0);
+		    $this.css('display', 'none');
+	        $(box).find('.showmore').css('display', 'block');
+		});
+	</script>
+  </body>
+</html>
